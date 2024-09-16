@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bratz Party</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3e6df;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #f3d4d4;
+            color: white;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-family: 'Comic Sans MS', cursive;
+        }
+        .contact-section {
+            background-color: #ff3e6d;
+            padding: 30px;
+            color: white;
+            margin-top: 20px;
+        }
+        .contact-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container {
+            background-color: #f3d4d4;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input, .form-container textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #ff3333;
+        }
+        .subscribe-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffcccc;
+        }
+        .subscribe-section input {
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .subscribe-section button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .subscribe-section button:hover {
+            background-color: black;
+        }
+        footer {
+            background-color: #ff3e6d;
+            padding: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bratz Party!</h1>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact</h2>
+        <p>Have a question or a comment? We'd love to hear it!</p>
+        
+        <!-- Image section for the top image -->
+        <div class="image-container">
+            <img src="pinkybratz.jpg" alt="Bratz doll">
+        </div>
+
+        <div class="form-container">
+            <form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- Image section for the second image -->
+        <div class="image-container">
+            <img src="pinky.jpg" alt="Bratz doll writing">
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <p>Let's be friends! Subscribe for 20% off of your first order:</p>
+        <input type="email" placeholder="Email address" required>
+        <button type="submit">Subscribe</button>
+    </section>
+
+    <footer>
+        <p>2024 Bratz Party Template</p>
+    </footer>
+
+</body>
+</html>
